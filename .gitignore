@@ -1,0 +1,15 @@
+# Build output, written next to main.tex.
+# Not *.pdf (figures/ are PDFs) and not *.bbl (main.bbl is tracked for arXiv).
+/main.pdf
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+.DS_Store

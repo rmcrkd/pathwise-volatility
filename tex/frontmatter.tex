@@ -1,0 +1,93 @@
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\begin{center}
+    \vspace*{4mm}
+    \LARGE \textbf{
+    On spatially irregular ordinary\\
+    differential equations and a pathwise\\
+    volatility modelling framework\\
+    }
+    \vspace*{10mm}
+    \large A thesis presented for the degree\\
+    \vspace*{4mm}
+
+    Doctor of Philosophy\\
+    \emph{from}\\
+    Department of Mathematics, Imperial College London\\
+    \emph{by}\\
+    \href{mailto:ryan.mccrickerd@gmail.com}{{\color{main}Ryan McCrickerd}}\,\orcidlink{0009-0006-8496-7594}
+\end{center}
+
+\clearpage
+\setlength{\parskip}{2mm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage}
+
+\section*{\hypertarget{abstract}{Abstract}}
+
+This thesis develops a new framework for modelling price processes in finance, such as an equity price or foreign exchange rate. This can be related to the conventional It\^o calculus-based framework through the time integral of a price's squared volatility, or `cumulative variance'. In the new framework, corresponding processes are strictly increasing, solve random ordinary differential equations (ODEs), and are composed with geometric Brownian motion. The new framework has no dependence on stochastic calculus, so processes can be studied on a pathwise basis using probability-free ODE techniques and functional analysis.
+
+The ODEs considered depend on continuous driving functions which are `spatially irregular', meaning they need not have any spatial regularity properties such as H\"older continuity. They are however strictly increasing in time, thus temporally asymmetric. When sensible initial values are chosen, initial value problem (IVP) solutions are also strictly increasing, and the solution set of such IVPs is shown to contain all differentiable bijections on the non-negative reals. This enables the modelling of any non-negative volatility path which is not zero over intervals, via the time derivative of solutions. Despite this generality, new well-posedness results establish the uniqueness of solutions going forwards in time. A condition is provided which prohibits explosions, and then the IVPs' solution map is shown to be continuous with respect to uniform convergence over compacts.
+
+Motivation to explore this framework comes from its connection with a time-changed Heston volatility model. The framework shows how Heston price processes can converge to a generalisation of the normal-inverse Gaussian (NIG) L\'evy process, and reveals a deeper relationship between integrated Cox-Ingersoll-Ross (CIR) processes and the inverse Gaussian (IG) process. Within this framework, a `Riemann-Liouville-Heston' (RLH) martingale model is defined which generalises these relationships to fractional counterparts. This model's implied volatilities are simulated, and exhibit features characteristic of leading volatility models.
+
+\clearpage
+\section*{Copyright Declaration}
+
+The copyright of this thesis rests with the author. Unless otherwise
+indicated, its contents are licensed under a Creative Commons
+Attribution-Non Commercial 4.0 International Licence (CC BY-NC).
+
+Under this licence, you may copy and redistribute the material in any
+medium or format. You may also create and distribute modified
+versions of the work. This is on the condition that: you credit the
+author and do not use it, or any derivative works, for a commercial
+purpose.
+
+When reusing or sharing this work, ensure you make the licence
+terms clear to others by naming the licence and linking to the licence
+text. Where a work has been adapted, you should indicate that the
+work has been changed and describe those changes.
+
+Please seek permission from the copyright holder for uses of this
+work that are not included in this licence or permitted under UK
+Copyright Law.
+
+\clearpage
+\section*{Statement of Originality}
+
+The parts of this thesis which are presented as my own work are my own work. The parts of this thesis which are not my own work are not presented as such and are appropriately referenced.
+
+\clearpage
+\section*{Acknowledgements}
+
+My primary thanks go to those without whom this thesis would not exist. These are foremost my parents, brother and sister, who provided the initial conditions for me to think independently, impartially and creatively. My early interests in sports, video games and cartoons can explain my intrigue with reality and how abstract models relate to it.
+
+Without encouragement from Peter O'Grady at school, I may not have started a mathematics degree. The quality of his teaching additionally enabled me to continue sports both in reality and virtually during my studies. Outclassing friends on video games proved important:~intoxicating booby prizes are avoided; a clearer mind for mathematics is maintained.
+
+It took several years working at JCRA to develop my appreciation of the models utilised in finance, as opposed to the sexier ones in physics. The level of support which my manager Ivan Harkins gave to me over those years was always surprising, and his enabling of PhD research alongside work will be forever valued tremendously. The wider culture set up by the late John Rathbone at JCRA was remarkable, like him, in my eyes and many friends'.
+
+The patience and advice of my supervisors Mikko Pakkanen and Martin Rasmussen at Imperial College, especially as my research took unconventional and risky directions, has been vital to its completion. Hindsight clarifies that I have at times been guided too much by mathematical aesthetics, rather than the more valuable consequences of my research.
+
+I have been delighted to grow even closer to my partner-in-crime Lavinia Singer and her family, and am excited to start our own. Watching Lavinia grow, magnified by Covid-19, has been inspirational, and I could not imagine feeling luckier than I do today. Witnessing a poetry editor endure my thoughts on function topologies has provided further inspiration.
+
+Finally I thank the authors of the texts \cite{coddington_1955}, \cite{agarwal_1993} and \cite{whitt_2002}, whose shoulders I feel I have stood on most.
+
+\vspace{4mm}
+This thesis was funded directly by the EPSRC Centre for Doctoral Training in Financial Computing and Analytics, and indirectly by my employers JCRA and Chatham Financial.
+
+\setlength{\parskip}{0mm}
+\renewcommand{\baselinestretch}{1.4}
+\clearpage
+\renewcommand{\contentsname}{Table of Contents}
+{\tableofcontents}
+
+\setlength{\parskip}{2mm}
+\renewcommand{\baselinestretch}{1.5} % required by Imperial
+
+\renewcommand{\listfigurename}{Figures}
+\renewcommand{\listtablename}{Tables}

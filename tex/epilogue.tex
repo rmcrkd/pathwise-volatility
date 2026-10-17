@@ -1,0 +1,101 @@
+\clearpage
+
+\phantomsection\section*{\hypertarget{epilogue}{Epilogue: Integrated CIR-L\'evy relationships}}
+\addcontentsline{toc}{section}{Epilogue: Integrated CIR-L\'evy relationships}
+\renewcommand\thesubsection{\thesection\Alph{subsection}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage}
+\chead{\nouppercase{\sc Epilogue}}
+
+In \autoref{sec:price_limits}, the limiting results from \autoref{sec:bounds_limits} and \autoref{sec:excursionary_limits} were applied to the RLH model from \autoref{def:RLH_model}, establishing a.s.~limiting connections with the generalised (fractional) IG and NIG processes from \autoref{def:frac_IG}, \autoref{def:frac_NIG1} and \autoref{def:frac_NIG2}. Classical CIR, Heston, IG and NIG weak limit theorems then followed as consequences.
+
+As mentioned in \autoref{sec:price_limits}, the limits established there depended on the choice to express the RLH model in the specific `fast-reversion' parameterisation in \autoref{def:fast_RLH}, inspired by the classical Heston parameterisation from \cite{mechkov_2015}, summarised in \autoref{eq:fast_reversion_heston}.
+
+We use this epilogue to simultaneously characterise \emph{all} (eight) of the L\'evy process limits arising from more general fast reverting CIR processes, demonstrating the power of \autoref{thm:exit_limit} in particular. These e.g.~accommodate the parameterisations from \cite{heston_1993} and \cite{fouque_2011}. Heston \emph{price} process limits follow from these in exactly the same way that \autoref{cor:heston_fd} and \autoref{cor:heston_hausdorff} did from \autoref{cor:frac_IG_limit}, so are not repeated.
+
+Particularly surprising will be the L\'evy limits arising here which have random starting points. This possibility is accommodated by \autoref{cor:construct_limit}, which enables their \emph{construction}. By covering these, we not only provide reconciliations between classical continuous and jump models of volatility, but also randomised ones, e.g. \cite{mechkov_2016}, \cite{jacquier_2019}.
+
+Consider the standard CIR variance process in the classical Heston model of \cite{heston_1993}
+\begin{equation}
+    \dd V_t = \sigma\sqrt{V_t}\dd W_t + \kappa(\theta - V_t)\dd t,\quad V_0=v.
+\end{equation}
+By drastically overparameterising this SDE, we will obtain a variety of limits from it simultaneously, via \autoref{thm:exit_limit}. So let the family $\{V^n\}_{n>0}$ of processes solve the CIR SDEs~
+\begin{equation}\label{eq:cir_fr_gen}
+    \dd V^n_t = n^\alpha a \sqrt{V^n_t}\dd W_t + n(b - n^{\beta-1} V^n_t)\dd t,\quad V^n_0=n^\gamma c,
+\end{equation}
+for fixed $a,b,c > 0$ and $\alpha,\beta,\gamma\in(-\infty,1]$. By constraining the exponents $\alpha,\beta,\gamma\le1$, we ensure that the reversionary component $nb$ in \autoref{eq:cir_fr_gen} is never dominated as $n\to\infty$, and so any particular case of $\alpha,\beta,\gamma\in(-\infty,1]$ can be considered a `fast-reversion' regime. The following classical regimes are then recovered when also setting $(n,a,b,c) := (\kappa,\sigma,\theta,v)$
+\begin{equation}\label{eq:diff_regimes}
+    (\alpha,\beta,\gamma) :=
+    \begin{cases}
+        \ (0,1,0)         &\text{\cite{heston_1993}}, \\
+        \ (\frac12,1,0)   &\text{\cite{fouque_2011}}, \\
+        \ (1,1,0)         &\text{\cite{mechkov_2015}}.
+    \end{cases}
+\end{equation}
+
+We now prepare for the limit of the time-integral processes $X^n_t:=\int_0^t V^n_s\dd s$ deriving from the CIR SDE in \autoref{eq:cir_fr_gen}. As in \autoref{sec:exit_topology}, let $\bPhi\subset\uD(\RR_+,\RR_+)$ contain the strictly increasing and unbounded c\`adl\`ag paths, and $d_{\bPhi}$ be the exit-time metric, satisfying $d_{\bPhi}(\bvp_1,\bvp_2) = \Vert E(\bvp_2) - E(\bvp_1)\Vert_{\RR_+}$. Here, $E$ is the usual exit-time functional, which defines an involutive isometry between the exit-time space $(\bPhi,d_{\bPhi})$ and the set of non-decreasing and unbounded paths in $\uC_0(\RR_+,\RR_+)$ equipped with the `uniform convergence over compacts' norm $\Vert\cdot\Vert_{\RR_+}$.
+
+Recall that convergence on the exit-time metric space $(\bPhi,d_{\bPhi})$ immediately provides convergence on Skorokhod's $\uM_1$ space and pointwise convergence a.e., so also on $\uL_p$ spaces. Recall also that by the weak convergence $X^n\cw X^0$ on a metric space $(\cX,d_\cX)$ we mean the convergence $\EE[\#(X^n)]\xrightarrow{n\to\infty}\EE[\#(X^0)]$ for real, bounded and continuous $\#$ from $(\cX,d_\cX)$. In the following, let the indicator $\mathbbm{1}_x=\mathbbm{1}_{\{1\}}(x)$ return the value 1 if $x=1$ and 0 otherwise.
+
+\begin{theorem}[Integrated CIR fast-reversion limits]\label{thm:cir_fr_limits}
+    Let the family $\{V^n\}_{n>0}$ of processes solve the CIR SDEs in \autoref{eq:cir_fr_gen} for fixed $a,b,c > 0$ and $\alpha,\beta,\gamma\in(-\infty,1]$. Define the time-integrals $\{X^n\}_{n>0}$ respectively by $X^n_t:=\int_0^t V^n_s\dd s$. Then the weak convergence $X^n\cw X^0$ takes place on the exit-time space $(\bPhi,d_{\bPhi})$, where $X^0$ is the L\'evy process
+    \begin{equation}\label{eq:lim_def}
+        X^0_t := \inf\bigg\{ x>0: - \mathbbm{1}_\alpha a W_x + \mathbbm{1}_\beta x > bt + \mathbbm{1}_\gamma c \bigg\}.
+    \end{equation}
+\end{theorem}
+\begin{proof}
+    Let $B^n$ be the Brownian motion constructed from $W$ and each $V^n$ as in \autoref{lem:heston_timechange} so that, as in \autoref{thm:heston_ode}, each CIR process $V^n$ equivalently solves the integral equation
+    \begin{equation}
+        V^n_t = n^\alpha a B^n_{\int_0^t V^n_s\dd s} + n \left(b t - n^{\beta-1}\int_0^t V^n_s\dd s\right) + n^\gamma c.
+    \end{equation}
+    Then each of the time-integrals $X^n$ solves the random IVP $x'=n Y^n_{t,x}$, $x_0=0$, where
+    \begin{equation}\label{eq:random_field_cir}
+        Y^n_{t,x} := n^{\alpha-1} a B^n_x + bt - n^{\beta-1}x + n^{\gamma-1}c.
+    \end{equation}
+    As in \autoref{thm:heston_ode}, this random IVP constitutes an example of \autoref{prob:random_ivp}, with each random field $Y^n$ a.s.~in $\uG$. These are thus well-posed by \autoref{thm:rand_well_posed}. Now let $\tX$ be the unique solution of the random IVP $x'=n \tY^n_{t,x}$, $x_0=0$ where each $\tY^n$ is as in \autoref{eq:random_field_cir} but constructed from the fixed Brownian motion $W$ rather than $B^n$. For clarity, this means~
+    \begin{equation}\label{eq:random_field_cir2}
+        \tY^n_{t,x} := n^{\alpha-1}a W_x + bt - n^{\beta-1}x + n^{\gamma-1}c,
+    \end{equation}
+    and this leads to the equivalence $\tX^n\ed X^n$ in distribution. Notice that the convergence $n^{x-1}\xrightarrow{n\to\infty}\mathbbm{1}_x\in\{0,1\}$ takes place for fixed $x\in(-\infty,1]$. Given that $\alpha,\beta,\gamma\in(-\infty,1]$, the convergence $\tY^n\asc\tY^0$ therefore takes place uniformly over compacts as $n\to\infty$, where
+    \begin{equation}
+        \tY^0_{t,x} := \mathbbm{1}_\alpha a W_x + bt - \mathbbm{1}_\beta x + \mathbbm{1}_\gamma c.
+    \end{equation}
+    Now define the candidate limit process $X^0\in\bPhi\subset\uD(\RR_+,\RR_+)$ like in \autoref{cor:exit_limit} by
+    \begin{equation}
+        X^0_t :=\inf\{x>0:\tY^0_{t,x}<0\} = \inf\{ x>0: - \mathbbm{1}_\alpha a W_x + \mathbbm{1}_\beta x > bt + \mathbbm{1}_\gamma c \}.
+    \end{equation}
+    Then by \autoref{cor:exit_limit} we have the convergence $\tX^n\asc X^0$ on the exit-time space $(\bPhi,d_{\bPhi})$ as $n\to\infty$. Since we have the equivalence $X^n\ed \tX^n$ of distributions for every $n>0$, then this also provides the weak convergence $X^n\cw X^0$ on the space $(\bPhi,d_{\bPhi})$, as claimed.
+\end{proof}
+
+\begin{table}[ht]
+    \begin{center}
+        \begin{tabular}{ c l l }
+         $(\mathbbm{1}_\alpha,\mathbbm{1}_\beta,\mathbbm{1}_\gamma)$ & $\ \ \ X^0_t$ & Limit description \\
+         $(0,0,0)$ & $\quad=\inf\bigg\{ x>0: 0 > bt \bigg\}=\infty$ & Immediate explosion \\
+         $(0,0,1)$ & $\quad=\inf\bigg\{ x>0: 0 > bt + c \bigg\}=\infty$ & Immediate explosion \\
+         $(0,1,0)$ & $\quad=\inf\bigg\{ x>0: x > bt \bigg\}=bt$ & Deterministic from 0 \\
+         $(0,1,1)$ & $\quad=\inf\bigg\{ x>0: x > bt + c \bigg\}= bt + c$ & Deterministic from $c$\\
+         $(1,0,0)$ & $\quad=\inf\bigg\{ x>0: -a W_x > bt \bigg\}$ & L\'evy \\
+         $(1,1,0)$ & $\quad=\inf\bigg\{ x>0: -a W_x + x > bt \bigg\}$ & IG\\
+         $(1,0,1)$ & $\quad=\inf\bigg\{ x>0: -a W_x > bt + c \bigg\}$ & L\'evy, random start \\
+         $(1,1,1)$ & $\quad=\inf\bigg\{ x>0: -a W_x + x > bt + c \bigg\}$ & IG, random start
+        \end{tabular}
+        \caption{
+            Representations and descriptions of the limits arising in \autoref{thm:cir_fr_limits}.
+        }\label{tab:cir_limits}
+    \end{center}
+    \vspace{-4mm}
+\end{table}
+
+Given there are eight implicit L\'evy process limits in \autoref{eq:lim_def}, \autoref{tab:cir_limits} describes each of them, mostly found in \cite{applebaum_2009}. Notice that each case of $(\mathbbm{1}_\alpha,\mathbbm{1}_\beta,\mathbbm{1}_\gamma)$ actually applies to an infinitude of reversionary regimes, except for (1,1,1). E.g., $(\mathbbm{1}_\alpha,\mathbbm{1}_\beta,\mathbbm{1}_\gamma)=(0,1,0)$ corresponds to \emph{any} reversionary regime with $\alpha,\gamma<1$ and $\beta=1$ in \autoref{eq:cir_fr_gen}, like \emph{both} of the \cite{heston_1993} and \cite{fouque_2011} regimes defined in \autoref{eq:diff_regimes}.
+
+Some concluding commentary is now provided on all the limits appearing in \autoref{tab:cir_limits} and the approach taken here towards establishing them. These remarks emphasise the surprising ability of the random ODE-based approach taken here to teach us new things about already much studied, and much relied upon, stochastic processes utilised in mathematical finance.
+
+As with \autoref{cor:IG_limit_fd}, which corresponds to the \cite{mechkov_2015} case of $(1,1,0)$ in \autoref{tab:cir_limits}, the convergence $X^n\cfd X^0$ supplements \autoref{thm:cir_fr_limits} at points where the limit $X^0$ is stochastically continuous. This is all of $\RR_+$, except $\{0\}$ must be removed when the limit violates $X^0_0=0$ a.s., i.e.~in cases 1, 2, 4, 7 and 8 in \autoref{tab:cir_limits}. Defining $X^0_{0_-}:=0$, this can be considered a violation of stochastic continuity. It is clear from their representations that the two random start cases coincide with their deterministic-start counterparts when shifted a distance $-\frac{c}{b}$ backwards in time. By using \autoref{eq:cir_fr_gen}, we see that these random start limits emerge only when the CIR starting points $V^n_0=n^\gamma c=nc$ tend up to $\infty$ as $n$ does.
+
+As demonstrated following \autoref{cor:IG_limit_fd}, all f.d.~convergences can be verified using MGFs, given all processes here are affine. This becomes more difficult if we e.g.~generalise the CIR reversion level $b$ in \autoref{eq:cir_fr_gen} to a c\`adl\`ag path $b(t)$ with strictly increasing and unbounded integral $\int_0^t b(s)\dd s$, but is still possible. As remarked in \autoref{sec:price_limits}, the proof of \autoref{thm:cir_fr_limits} is practically unchanged for this extension and others. E.g., we simply find this integral $\int_0^t b(s)\dd s$ appearing in place of the term $bt=\int_0^t b\dd s$ in the limit in \autoref{eq:lim_def}.
+
+Since the deterministic limits in \autoref{tab:cir_limits} are continuous, convergence in these cases is uniform over compacts. Notice that the reversionary regimes of \emph{both} \cite{heston_1993} and \cite{fouque_2011} fall into the third case of (0,1,0), so have the linear limit $X^0_t:=bt$. In these cases, the Heston price process converges weakly to that of Black-Scholes w.r.t.~uniform convergence over compacts. The effect of this was noted in \cite{fouque_2011}. $V^n$ does not necessarily become deterministic just because  $X^n:=\int_0 V^n_s\dd s$ does, and can in general develop random excursions to $\infty$. This is explained by the limits in \autoref{cor:hausdorff_deriv}, illustrated in \autoref{fig:hausdorff_deriv}.

@@ -1,0 +1,251 @@
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+%%%% ARXIV GEOMETRY
+\geometry{
+    a4paper,
+    right=35mm,
+    left=35mm,
+    top=50mm,
+    bottom=55mm,
+    footskip=15mm,
+}
+\renewcommand{\baselinestretch}{1.5} % required by Imperial
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0em}
+
+\usepackage{float}
+\usepackage[justification=centering]{caption}
+\usepackage{xcolor}
+% colours selected from https://www.rapidtables.com/web/color/RGB_Color.html
+\definecolor{main}{RGB}{0,25,51}   % text colour
+\definecolor{alt3}{RGB}{0,128,255} % all links
+\color{main} % set to main colour
+
+\usepackage[pdftex,
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=false,        % show Acrobat’s toolbar?
+    pdfmenubar=false,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdfstartview={FitV},    % fits the height of the page to the window
+    pdftitle={On spatially irregular ordinary differential equations and a pathwise volatility modelling framework},    % title
+    pdfauthor={Ryan McCrickerd},     % author
+    pdfsubject={PhD thesis, Imperial College London, 2021},   % subject of the document
+    pdfcreator={},   % creator of the document
+    pdfproducer={}, % producer of the document
+    pdfkeywords={pathwise volatility, ordinary differential equations, initial value problems, forward uniqueness, random differential equations, functional limit theorems, fractional Brownian motion, Riemann-Liouville, Lévy processes, inverse Gaussian process, normal-inverse Gaussian process, diffusion processes, Cox-Ingersoll-Ross process, option pricing, implied volatility, asset pricing, stochastic volatility, rough volatility, Heston model, Monte Carlo simulation, mathematical finance, quantitative finance, time change}, % list of keywords
+    pdfnewwindow=true,      % links in new PDF window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linktocpage=true,      % link page numbers, not titles, in the contents
+    linkcolor=alt3,          % color of internal links (change box color with linkbordercolor)
+    citecolor=alt3,        % color of links to bibliography
+    filecolor=alt3,      % color of file links
+    urlcolor=alt3         % color of external links
+]{hyperref}
+\usepackage{orcidlink} % ORCID icon beside the author's name
+
+\usepackage{aliascnt}
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 0pt minus 0pt}{12pt plus 0pt minus 0pt}
+\titlespacing\subsection{0pt}{8pt plus 0pt minus 0pt}{8pt plus 0pt minus 0pt}
+\titlespacing\subsubsection{0pt}{8pt plus 0pt minus 0pt}{8pt plus 0pt minus 0pt}
+
+\titleformat{\section}[hang]{\Large\bfseries\filcenter}{\thesection}{1em}{}
+\titleformat{\subsection}[hang]{\large\bfseries\filcenter}{\thesubsection}{1em}{}
+
+\usepackage{fancyhdr}
+
+\usepackage{amsmath,amssymb,amsthm,wasysym,stmaryrd,mathrsfs}
+\usepackage[UKenglish]{babel}
+% THEOREMING
+% Declare theorem-style environments with \mynewtheorem to maintain just one
+% counter for numbering, and make them work with \autoref.
+\newtheorem{dummy}{***}[section]
+\newcommand{\mynewtheorem}[2]{
+  \newaliascnt{#1}{dummy}
+  \newtheorem{#1}[#1]{#2}
+  \aliascntresetthe{#1}
+  % make \autoref use this name, overriding any default
+  \expandafter\def\csname #1autorefname\endcsname{#2}
+}
+
+\newtheoremstyle{mythm}%
+    {6pt plus 0pt minus 0pt}% Space above
+    {2pt plus 0pt minus 0pt}% Space below
+    {\itshape}% Body font
+    {}% Indent amount
+    {\bfseries}% ⟨Theorem head font⟩
+    {\bfseries.}% ⟨Punctuation after theorem head ⟩
+    {.5em}% Space after theorem head
+    {}%
+
+\newtheoremstyle{myrem}%
+    {6pt plus 0pt minus 0pt}% Space above
+    {2pt plus 0pt minus 0pt}% Space below
+    {}% Body font
+    {}% Indent amount
+    {\bfseries}% ⟨Theorem head font⟩
+    {\bfseries.}% ⟨Punctuation after theorem head ⟩
+    {.5em}% Space after theorem head
+    {}%
+
+\theoremstyle{mythm}
+  \mynewtheorem{theorem}{Theorem}
+  \mynewtheorem{lemma}{Lemma}
+  \mynewtheorem{corollary}{Corollary}
+
+\theoremstyle{myrem}
+  \mynewtheorem{example}{Example}
+  \mynewtheorem{problem}{Problem}
+  \mynewtheorem{definition}{Definition}
+  \mynewtheorem{remark}{Remark}
+
+\renewenvironment{proof}
+{\textbf{Proof.}\begin{mdseries}}{\qed\end{mdseries}}
+
+% Appear with capital
+\def\sectionautorefname{Chapter}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+
+\usepackage[longnamesfirst]{natbib}
+
+\usepackage{graphicx}
+
+\usepackage{bbm} % for indicator function
+
+\usepackage{mathtools}
+
+\usepackage{changepage}
+\usepackage[all]{nowidow}
+% Keep the thesis's original page layout, which was built with TeX Live 2020.
+\makeatletter
+% lineno 5.0 and later wraps amsmath's display environments, which lets a page
+% break fall just before them. Line numbers are only used in the appendix, where
+% there are no displays, so the environments are put back as amsmath defines them.
+\def\thesis@displays{equation,equation*,multline,multline*,gather,gather*,align,align*,alignat,alignat*,flalign,flalign*}
+\@for\thesis@display:=\thesis@displays\do{%
+  \expandafter\let\csname thesis@\thesis@display\expandafter\endcsname\csname\thesis@display\endcsname
+  \expandafter\let\csname thesis@end\thesis@display\expandafter\endcsname\csname end\thesis@display\endcsname}
+\let\thesis@math@cr@\math@cr@
+\let\thesis@mmeasure@\mmeasure@
+\usepackage{lineno}
+\@for\thesis@display:=\thesis@displays\do{%
+  \expandafter\let\csname\thesis@display\expandafter\endcsname\csname thesis@\thesis@display\endcsname
+  \expandafter\let\csname end\thesis@display\expandafter\endcsname\csname thesis@end\thesis@display\endcsname}
+\let\math@cr@\thesis@math@cr@
+\let\mmeasure@\thesis@mmeasure@
+% amsmath now steps the equation counter inside the display. In 2020 it did so
+% just before, where hyperref's link anchor could take a line of its own above
+% the display. This is the 2020 definition.
+\renewenvironment{equation}{%
+  \incr@eqnum
+  \mathdisplay@push
+  \st@rredfalse \global\@eqnswtrue
+  \mathdisplay{equation}%
+}{%
+  \endmathdisplay{equation}%
+  \mathdisplay@pop
+  \ignorespacesafterend
+}
+\makeatother
+\def\linenumberfont{\normalfont\footnotesize\sffamily\color{gray}}
+
+\usepackage{centernot}
+
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\id}{\mathrm{e}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\II}{\mathbb{I}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\EE}{\mathbb{E}}
+\newcommand{\WW}{\mathbb{W}}
+\newcommand{\BB}{\mathbb{B}}
+\newcommand{\bS}{\mathbb{S}}
+\newcommand{\NN}{\mathbb{N}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cE}{\mathcal{E}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cG}{\mathcal{G}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\uW}{\mathrm{W}}
+\newcommand{\uF}{\mathrm{F}}
+\newcommand{\uFe}{\mathrm{F_{\:\!\! e}}}
+\newcommand{\uG}{\mathrm{G}}
+\newcommand{\uD}{\mathrm{D}}
+\newcommand{\uS}{\mathrm{S}}
+\newcommand{\uC}{\mathrm{C}}
+\newcommand{\uN}{\mathrm{N}}
+\newcommand{\uH}{\mathrm{H}}
+\newcommand{\uAC}{\mathrm{AC}}
+\newcommand{\uE}{\mathrm{E}}
+\newcommand{\uM}{\mathrm{M}}
+\newcommand{\uL}{\mathrm{L}}
+\newcommand{\uJ}{\mathrm{J}}
+
+\newcommand{\tX}{\tilde{X}}
+
+\newcommand{\tW}{\tilde{W}}
+\newcommand{\tS}{\tilde{S}}
+
+\newcommand{\cR}{\mathcal{R}}
+
+\DeclareMathOperator*{\Leb}{Leb}
+
+\newcommand{\ve}{\varepsilon}
+\newcommand{\vt}{\vartheta}
+\newcommand{\vp}{\varphi}
+\newcommand{\hvp}{\hat{\varphi}}
+
+\newcommand{\bvp}{\overline{\varphi}}
+\newcommand{\ubvp}{\underline{\varphi}}
+
+\newcommand{\bX}{{\overline{X}}}
+\newcommand{\bRR}{{\overline{\mathbb{R}}}}
+
+\newcommand{\bPhi}{\overline{\Phi}}
+
+\newcommand{\bXX}{{\overline{X}}}
+\newcommand{\tY}{{\tilde{Y}}}
+
+\newcommand{\hY}{{\hat{Y}}}
+\newcommand{\hW}{{\hat{W}}}
+\newcommand{\hX}{{\hat{X}}}
+\newcommand{\hS}{{\hat{S}}}
+
+\newcommand{\cd}{\xrightarrow{\dd}}
+\newcommand{\cfd}{\xrightarrow{\mathrm{f.d.}}}
+\newcommand{\cp}{\xrightarrow{\mathrm{p}}}
+\newcommand{\asc}{\xrightarrow{\mathrm{a.s.}}}
+\newcommand{\ed}{\stackrel{\dd}{=}}
+
+\newcommand{\cw}{\xRightarrow{n\to\infty}}
+
+\numberwithin{equation}{section}
+
+\setlength{\abovecaptionskip}{4pt plus 0pt minus 0pt}
+\setlength{\belowcaptionskip}{4pt plus 0pt minus 0pt}
+
+% leaves e.g. subsubsections and beyond out of toc
+\setcounter{tocdepth}{2}
+
+\newcommand{\ep}{\epsilon}
+
+\newcommand{\sgn}{\mathrm{sgn}}
+
+\newcommand{\tZ}{\tilde{Z}}
+\newcommand{\tvt}{\tilde{\vt}}
+
+% this enables
+% \begin{changemargin}{0.5cm}{0.5cm}
+% \end{changemargin}
+% which is how quote works, with this set to 1cm
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist
+
+\usepackage[T1]{fontenc}

@@ -1,0 +1,893 @@
+\begin{thebibliography}{139}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{DOI: }\fi
+
+\bibitem[{{Abi Jaber}(2019)}]{abijaber_2019a}
+{Abi Jaber}, E. (2019).
+\newblock {Reconciling rough volatility with jumps}.
+\newblock {\em Presentation at the Vienna Congress on Mathematical Finance\/}.
+
+\bibitem[{{Abi Jaber} \& {El Euch}(2019)}]{abijaber_2019b}
+{Abi Jaber}, E. \& {El Euch}, O. (2019).
+\newblock {Multifactor Approximation of Rough Volatility Models}.
+\newblock {\em {SIAM} Journal on Financial Mathematics\/}, {\em 10\/}(2),
+  309--349.
+\newline\urlprefix\url{https://doi.org/10.1137/18M1170236}
+
+\bibitem[{Abi~Jaber et~al.(2019)Abi~Jaber, Larsson \& Pulido}]{abijaber_2019c}
+Abi~Jaber, E., Larsson, M. \& Pulido, S. (2019).
+\newblock {Affine Volterra processes}.
+\newblock {\em Annals of Applied Probability\/}, {\em 29\/}(5), 3155--3200.
+\newline\urlprefix\url{https://doi.org/10.1214/19-aap1477}
+
+\bibitem[{Agarwal \& Lakshmikantham(1993)}]{agarwal_1993}
+Agarwal, R.~P. \& Lakshmikantham, V. (1993).
+\newblock {\em Uniqueness and Nonuniqueness Criteria for Ordinary Differential
+  Equations\/}.
+\newblock World Scientific.
+\newline\urlprefix\url{https://doi.org/10.1142/1988}
+
+\bibitem[{Aliprantis \& Burkinshaw(1998)}]{aliprantis_1998}
+Aliprantis, C.~D. \& Burkinshaw, O. (1998).
+\newblock {\em Principles of Real Analysis \emph{(3rd ed.)}\/}.
+\newblock Academic Press.
+
+\bibitem[{Al{\`{o}}s \& Le{\'{o}}n(2017)}]{alos_2017}
+Al{\`{o}}s, E. \& Le{\'{o}}n, J.~A. (2017).
+\newblock On the curvature of the smile in stochastic volatility models.
+\newblock {\em SIAM Journal on Financial Mathematics\/}, {\em 8\/}(1),
+  373--399.
+\newline\urlprefix\url{https://doi.org/10.1137/16m1086315}
+
+\bibitem[{Al{\`{o}}s et~al.(2007)Al{\`{o}}s, Le{\'{o}}n \& Vives}]{alos_2007}
+Al{\`{o}}s, E., Le{\'{o}}n, J.~A. \& Vives, J. (2007).
+\newblock On the short-time behavior of the implied volatility for
+  jump-diffusion models with stochastic volatility.
+\newblock {\em Finance and Stochastics\/}, {\em 11\/}(4), 571--589.
+\newline\urlprefix\url{https://doi.org/10.1007/s00780-007-0049-1}
+
+\bibitem[{Ananova et~al.(2020)Ananova, Cont \& Xu}]{ananova_2020}
+Ananova, A., Cont, R. \& Xu, R. (2020).
+\newblock {Excursion Risk}.
+\newblock {\em arXiv preprint. \\ \emph{URL:
+  \texttt{\href{https://arxiv.org/abs/2011.02870}{https://arxiv.org/abs/2011.02870}}}\/}.
+
+\bibitem[{Andersen(2008)}]{andersen_2008}
+Andersen, L. (2008).
+\newblock {Simple and efficient simulation of the Heston stochastic volatility
+  model}.
+\newblock {\em Journal of Computational Finance\/}, {\em 11\/}(3), 1--42.
+\newline\urlprefix\url{https://doi.org/10.21314/jcf.2008.189}
+
+\bibitem[{Andersen \& Piterbarg(2010)}]{andersen_2010}
+Andersen, L. B.~G. \& Piterbarg, V.~V. (2010).
+\newblock {\em Interest Rate Modeling\/}.
+\newblock Atlantic Financial Press.
+
+\bibitem[{Applebaum(2009)}]{applebaum_2009}
+Applebaum, D. (2009).
+\newblock {\em L{\'{e}}vy Processes and Stochastic Calculus \emph{(2nd
+  ed.)}\/}.
+\newblock Cambridge University Press.
+\newline\urlprefix\url{https://doi.org/10.1017/cbo9780511809781}
+
+\bibitem[{Asmussen \& Glynn(2007)}]{asmussen_2007}
+Asmussen, S. \& Glynn, P.~W. (2007).
+\newblock {\em Stochastic Simulation: Algorithms and Analysis\/}.
+\newblock Springer-Verlag New York.
+\newline\urlprefix\url{https://doi.org/10.1007/978-0-387-69033-9}
+
+\bibitem[{Ballotta et~al.(2017)Ballotta, Deelstra \& Rayée}]{ballotta_2017}
+Ballotta, L., Deelstra, G. \& Rayée, G. (2017).
+\newblock {Multivariate FX models with jumps: Triangles, Quantos and implied
+  correlation}.
+\newblock {\em European Journal of Operational Research\/}, {\em 260\/}(3),
+  1181--1199.
+\newline\urlprefix\url{https://doi.org/10.1016/j.ejor.2017.02.018}
+
+\bibitem[{Barndorff-Nielsen(1997)}]{barndorff-nielsen_1997}
+Barndorff-Nielsen, O.~E. (1997).
+\newblock {Normal Inverse Gaussian Distributions and Stochastic Volatility
+  Modelling}.
+\newblock {\em Scandinavian Journal of Statistics\/}, {\em 24\/}(1), 1--13.
+\newline\urlprefix\url{https://doi.org/10.1111/1467-9469.00045}
+
+\bibitem[{Barndorff-Nielsen et~al.(2018)Barndorff-Nielsen, Benth \&
+  Veraart}]{barndorff-nielsen_2018}
+Barndorff-Nielsen, O.~E., Benth, F.~E. \& Veraart, A. E.~D. (2018).
+\newblock {\em Ambit Stochastics\/}.
+\newblock Springer International Publishing.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-319-94129-5}
+
+\bibitem[{Barndorff-Nielsen \&
+  Shephard(2001{\natexlab{a}})}]{barndorff-nielsen_2001a}
+Barndorff-Nielsen, O.~E. \& Shephard, N. (2001{\natexlab{a}}).
+\newblock {Modelling by L{\'{e}}vy Processes for Financial Econometrics}.
+\newblock In {\em L{\'{e}}vy Processes\/}. Birkhäuser, Boston, MA.
+\newline\urlprefix\url{https://doi.org/10.1007/978-1-4612-0197-7_13}
+
+\bibitem[{Barndorff-Nielsen \&
+  Shephard(2001{\natexlab{b}})}]{barndorff-nielsen_2001b}
+Barndorff-Nielsen, O.~E. \& Shephard, N. (2001{\natexlab{b}}).
+\newblock {Non-Gaussian Ornstein–Uhlenbeck-based models and some of their
+  uses in financial economics}.
+\newblock {\em Journal of the Royal Statistical Society: Series B (Statistical
+  Methodology)\/}, {\em 63\/}(2), 167--241.
+\newline\urlprefix\url{https://doi.org/10.1111/1467-9868.00282}
+
+\bibitem[{Barndorff-Nielsen \& Shiryaev(2010)}]{barndorff-nielsen_2010}
+Barndorff-Nielsen, O.~E. \& Shiryaev, A. (2010).
+\newblock {\em {Change of Time and Change of Measure}\/}.
+\newblock World Scientific.
+\newline\urlprefix\url{https://doi.org/10.1142/7928}
+
+\bibitem[{Bartle \& Sherbert(2011)}]{bartle_2011}
+Bartle, R.~G. \& Sherbert, D.~R. (2011).
+\newblock {\em Introduction to Real Analysis \emph{(4th ed.)}\/}.
+\newblock Wiley.
+
+\bibitem[{Bayer et~al.(2016)Bayer, Friz \& Gatheral}]{bayer_2016}
+Bayer, C., Friz, P. \& Gatheral, J. (2016).
+\newblock Pricing under rough volatility.
+\newblock {\em Quantitative Finance\/}, {\em 16\/}(6), 887--904.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2015.1099717}
+
+\bibitem[{Bayer et~al.(2021)Bayer, Harang \& Pigato}]{bayer_2021}
+Bayer, C., Harang, F.~A. \& Pigato, P. (2021).
+\newblock {Log-modulated rough stochastic volatility models}.
+\newblock {\em SIAM Journal on Financial Mathematics\/}, {\em 12\/}(3),
+  1257--1284.
+\newline\urlprefix\url{https://doi.org/10.1137/20M135902X}
+
+\bibitem[{Bennedsen et~al.(2017)Bennedsen, Lunde \& Pakkanen}]{bennedsen_2017}
+Bennedsen, M., Lunde, A. \& Pakkanen, M.~S. (2017).
+\newblock {Hybrid scheme for Brownian semistationary processes}.
+\newblock {\em Finance and Stochastics\/}, {\em 21\/}(4), 931--965.
+\newline\urlprefix\url{https://doi.org/10.1007/s00780-017-0335-5}
+
+\bibitem[{Bennedsen et~al.(2022)Bennedsen, Lunde \& Pakkanen}]{bennedsen_2022}
+Bennedsen, M., Lunde, A. \& Pakkanen, M.~S. (2022).
+\newblock {Decoupling the short- and long-term behavior of stochastic
+  volatility}.
+\newblock {\em Journal of Financial Econometrics\/}, {\em 20\/}(5), 961--1006.
+\newline\urlprefix\url{https://doi.org/10.1093/jjfinec/nbaa049}
+
+\bibitem[{Bergomi(2016)}]{bergomi_2016}
+Bergomi, L. (2016).
+\newblock {\em Stochastic Volatility Modeling\/}.
+\newblock Chapman and Hall/{CRC}.
+\newline\urlprefix\url{https://doi.org/10.1201/b19649}
+
+\bibitem[{Billingsley(1995)}]{billingsley_1995}
+Billingsley, P. (1995).
+\newblock {\em Probability and Measure \emph{(3rd ed.)}\/}.
+\newblock Wiley.
+
+\bibitem[{Billingsley(1999)}]{billingsley_1999}
+Billingsley, P. (1999).
+\newblock {\em Convergence of Probability Measures \emph{(2nd ed.)}\/}.
+\newblock Wiley.
+\newline\urlprefix\url{https://doi.org/10.1002/9780470316962}
+
+\bibitem[{Blanc et~al.(2017)Blanc, Donier \& Bouchaud}]{blanc_2017}
+Blanc, P., Donier, J. \& Bouchaud, J.-P. (2017).
+\newblock {Quadratic Hawkes processes for financial prices}.
+\newblock {\em Quantitative Finance\/}, {\em 17\/}(2), 171--188.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2016.1193215}
+
+\bibitem[{Brigo \& Mercurio(2006)}]{brigo_2006}
+Brigo, D. \& Mercurio, F. (2006).
+\newblock {\em Interest Rate Models - Theory and Practice\/}.
+\newblock Springer-Verlag Berlin Heidelberg.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-540-34604-3}
+
+\bibitem[{Bru \& Yor(2002)}]{bru_2002}
+Bru, B. \& Yor, M. (2002).
+\newblock {Comments on the life and mathematical legacy of Wolfgang Doeblin}.
+\newblock {\em Finance and Stochastics\/}, {\em 6\/}(1), 3--47.
+\newline\urlprefix\url{https://doi.org/10.1007/s780-002-8399-0}
+
+\bibitem[{Buehler et~al.(2019)Buehler, Gonon, Teichmann \& Wood}]{buehler_2019}
+Buehler, H., Gonon, L., Teichmann, J. \& Wood, B. (2019).
+\newblock Deep hedging.
+\newblock {\em Quantitative Finance\/}, {\em 19\/}(8), 1271--1291.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2019.1571683}
+
+\bibitem[{Cantor(1884)}]{cantor_1884}
+Cantor, G. (1884).
+\newblock {De la puissance des ensembles parfaits de points: Extrait d’une
+  lettre adressée à l’éditeur}.
+\newblock {\em Acta Mathematica\/}, {\em 4\/}, 381--392.
+\newline\urlprefix\url{https://doi.org/10.1007/BF02418423}
+
+\bibitem[{Carathéodory(1927)}]{caratheodory_1927}
+Carathéodory, C. (1927).
+\newblock {\em {Vorlesungen über Reelle Funktionen \emph{(2nd ed.)}}\/}.
+\newblock Vieweg+Teubner Verlag Wiesbaden.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-663-15768-7}
+
+\bibitem[{Carr et~al.(2003)Carr, Geman, Madan \& Yor}]{carr_2003}
+Carr, P., Geman, H., Madan, D.~B. \& Yor, M. (2003).
+\newblock {Stochastic Volatility for L{\'e}vy Processes}.
+\newblock {\em Mathematical Finance\/}, {\em 13\/}(3), 345--382.
+\newline\urlprefix\url{https://doi.org/10.1111/1467-9965.00020}
+
+\bibitem[{Carr \& Wu(2004)}]{carr_2004}
+Carr, P. \& Wu, L. (2004).
+\newblock {Time-changed Lévy processes and option pricing}.
+\newblock {\em Journal of Financial Economics\/}, {\em 71\/}(1), 113--141.
+\newline\urlprefix\url{https://doi.org/10.1016/S0304-405X(03)00171-5}
+
+\bibitem[{Cherny \& Engelbert(2005)}]{cherny_2005}
+Cherny, A.~S. \& Engelbert, H.-J. (2005).
+\newblock {\em {Singular Stochastic Differential Equations}\/}.
+\newblock Springer, Berlin, Heidelberg.
+\newline\urlprefix\url{https://doi.org/10.1007/b104187}
+
+\bibitem[{Cid \& Pouso(2009)}]{cid_2009}
+Cid, J.~A. \& Pouso, R.~L. (2009).
+\newblock {Does Lipschitz with Respect to $x$ Imply Uniqueness for the
+  Differential Equation $y' = f(x, y)$?}
+\newblock {\em The American Mathematical Monthly\/}, {\em 116\/}(1), 61--66.
+\newline\urlprefix\url{https://doi.org/10.1080/00029890.2009.11920909}
+
+\bibitem[{Ciesielski(1960)}]{ciesielski_1960}
+Ciesielski, Z. (1960).
+\newblock {On the Isomorphisms of the Spaces H${}_\alpha$ and $m$}.
+\newblock {\em Bulletin of the Polish Academy of Sciences\/}, {\em 8\/}(4),
+  217--222.
+
+\bibitem[{Coddington \& Levinson(1955)}]{coddington_1955}
+Coddington, E.~A. \& Levinson, N. (1955).
+\newblock {\em Theory of ordinary differential equations\/}.
+\newblock McGraw-Hill.
+
+\bibitem[{Cont \& Perkowski(2019)}]{cont_2019}
+Cont, R. \& Perkowski, N. (2019).
+\newblock Pathwise integration and change of variable formulas for continuous
+  paths with arbitrary regularity.
+\newblock {\em Transactions of the American Mathematical Society, Series B\/},
+  {\em 6\/}(5), 161--186.
+\newline\urlprefix\url{https://doi.org/10.1090/btran/34}
+
+\bibitem[{Cont \& Tankov(2003)}]{cont_2003}
+Cont, R. \& Tankov, P. (2003).
+\newblock {\em Financial Modelling with Jump Processes\/}.
+\newblock Chapman and Hall/CRC.
+\newline\urlprefix\url{https://doi.org/10.1201/9780203485217}
+
+\bibitem[{Cordi et~al.(2021)Cordi, Challet \& Kassibrakis}]{cordi_2021}
+Cordi, M., Challet, D. \& Kassibrakis, S. (2021).
+\newblock The market nanostructure origin of asset price time reversal
+  asymmetry.
+\newblock {\em Quantitative Finance\/}, {\em 21\/}(2), 295--304.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2020.1753883}
+
+\bibitem[{Cox et~al.(1985)Cox, Ingersoll \& Ross}]{cox_1985}
+Cox, J.~C., Ingersoll, J.~E. \& Ross, S.~A. (1985).
+\newblock {A Theory of the Term Structure of Interest Rates}.
+\newblock {\em Econometrica\/}, {\em 53\/}(2), 385--407.
+\newline\urlprefix\url{https://doi.org/10.2307/1911242}
+
+\bibitem[{Dambis(1965)}]{dambis_1965}
+Dambis, K.~E. (1965).
+\newblock {On the Decomposition of Continuous Submartingales}.
+\newblock {\em Theory of Probability {\&} Its Applications\/}, {\em 10\/}(3),
+  401--410.
+\newline\urlprefix\url{https://doi.org/10.1137/1110048}
+
+\bibitem[{Davis et~al.(2018)Davis, Obłój \& Siorpaes}]{davis_2018}
+Davis, M., Obłój, J. \& Siorpaes, P. (2018).
+\newblock Pathwise stochastic calculus with local times.
+\newblock {\em Annales de l'Institut Henri Poincaré, Probabilités et
+  Statistiques\/}, {\em 54\/}(1), 1--21.
+\newline\urlprefix\url{https://doi.org/10.1214/16-aihp792}
+
+\bibitem[{{De Col} et~al.(2013){De Col}, Gnoatto \& Grasselli}]{decol_2013}
+{De Col}, A., Gnoatto, A. \& Grasselli, M. (2013).
+\newblock {Smiles all around: FX joint calibration in a multi-Heston model}.
+\newblock {\em Journal of Banking {\&} Finance\/}, {\em 37\/}(10), 3799--3818.
+\newline\urlprefix\url{https://doi.org/10.1016/j.jbankfin.2013.05.031}
+
+\bibitem[{Dekking et~al.(2005)Dekking, Kraaikamp, Lopuhaä \&
+  Meester}]{dekking_2005}
+Dekking, F.~M., Kraaikamp, C., Lopuhaä, H.~P. \& Meester, L.~E. (2005).
+\newblock {\em A Modern Introduction to Probability and Statistics\/}.
+\newblock Springer-Verlag London.
+\newline\urlprefix\url{https://doi.org/10.1007/1-84628-168-7}
+
+\bibitem[{Doss(1977)}]{doss_1977}
+Doss, H. (1977).
+\newblock Liens entre \'equations diff\'erentielles stochastiques et
+  ordinaires.
+\newblock {\em Annales de l'I.H.P. Probabilit\'es et statistiques\/}, {\em
+  13\/}(2), 99--125.
+
+\bibitem[{Dubins \& Schwarz(1965)}]{dubins_1965}
+Dubins, L.~E. \& Schwarz, G. (1965).
+\newblock {On Continuous Martingales}.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America\/}, {\em 53\/}(5), 913--916.
+\newline\urlprefix\url{https://doi.org/10.1073/pnas.53.5.913}
+
+\bibitem[{Dufresne(2001)}]{dufresne_2001}
+Dufresne, D. (2001).
+\newblock The integrated square-root process.
+\newblock {\em Minerva Access preprint. \\ \emph{URI:
+  \texttt{\href{http://hdl.handle.net/11343/33693}{http://hdl.handle.net/11343/33693}}}\/}.
+
+\bibitem[{Dupire(1994)}]{dupire_1994}
+Dupire, B. (1994).
+\newblock Pricing with a smile.
+\newblock {\em Risk\/}.
+
+\bibitem[{{El Euch} et~al.(2020){El Euch}, Gatheral, Radoičić \&
+  Rosenbaum}]{eleuch_2020}
+{El Euch}, O., Gatheral, J., Radoičić, R. \& Rosenbaum, M. (2020).
+\newblock {The Zumbach effect under rough Heston}.
+\newblock {\em Quantitative Finance\/}, {\em 20\/}(2), 235--241.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2019.1658889}
+
+\bibitem[{{El Euch} et~al.(2019){El Euch}, Gatheral \&
+  Rosenbaum}]{eleuch_2019b}
+{El Euch}, O., Gatheral, J. \& Rosenbaum, M. (2019).
+\newblock {Roughening Heston}.
+\newblock {\em Risk\/}.
+
+\bibitem[{{El Euch} \& Rosenbaum(2019)}]{eleuch_2019a}
+{El Euch}, O. \& Rosenbaum, M. (2019).
+\newblock {The characteristic function of rough Heston models}.
+\newblock {\em Mathematical Finance\/}, {\em 29\/}(1), 3--38.
+\newline\urlprefix\url{https://doi.org/10.1111/mafi.12173}
+
+\bibitem[{Feller(1968)}]{feller_1968}
+Feller, W. (1968).
+\newblock {\em An Introduction to Probability Theory and Its Applications:
+  Volume I\/}.
+\newblock Wiley.
+
+\bibitem[{F{\"o}llmer(1981)}]{follmer_1981}
+F{\"o}llmer, H. (1981).
+\newblock {Calcul d'It\^o sans probabilit\'es}.
+\newblock {\em S{\'e}minaire de Probabilit{\'e}s XV 1979/80\emph{,
+  143--150}\/}.
+\newline\urlprefix\url{https://doi.org/10.1007/bfb0088364}
+
+\bibitem[{Forde \& Jacquier(2011)}]{forde_2011}
+Forde, M. \& Jacquier, A. (2011).
+\newblock {The large-maturity smile for the Heston model}.
+\newblock {\em Finance and Stochastics\/}, {\em 15\/}(4), 755--780.
+\newline\urlprefix\url{https://doi.org/10.1007/s00780-010-0147-3}
+
+\bibitem[{Fouque et~al.(2011)Fouque, Papanicolaou, Sircar \&
+  S{\o}lna}]{fouque_2011}
+Fouque, J.-P., Papanicolaou, G., Sircar, R. \& S{\o}lna, K. (2011).
+\newblock {\em Multiscale Stochastic Volatility for Equity, Interest Rate, and
+  Credit Derivatives\/}.
+\newblock Cambridge University Press.
+\newline\urlprefix\url{https://doi.org/10.1017/cbo9781139020534}
+
+\bibitem[{Friz \& Hairer(2014)}]{friz_2014}
+Friz, P. \& Hairer, M. (2014).
+\newblock {\em A Course on Rough Paths\/}.
+\newblock Springer International Publishing.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-319-08332-2}
+
+\bibitem[{Friz \& Victoir(2010)}]{friz_2010}
+Friz, P.~K. \& Victoir, N.~B. (2010).
+\newblock {\em Multidimensional Stochastic Processes as Rough Paths\/}.
+\newblock Cambridge University Press.
+\newline\urlprefix\url{https://doi.org/10.1017/cbo9780511845079}
+
+\bibitem[{Fukasawa(2011)}]{fukasawa_2011}
+Fukasawa, M. (2011).
+\newblock Asymptotic analysis for stochastic volatility: martingale expansion.
+\newblock {\em Finance and Stochastics\/}, {\em 15\/}(4), 635--654.
+\newline\urlprefix\url{https://doi.org/10.1007/s00780-010-0136-6}
+
+\bibitem[{Gatheral(2006)}]{gatheral_2006}
+Gatheral, J. (2006).
+\newblock {\em The Volatility Surface: A Practitioner's Guide\/}.
+\newblock Wiley.
+\newline\urlprefix\url{https://doi.org/10.1002/9781119202073}
+
+\bibitem[{Gatheral et~al.(2018)Gatheral, Jaisson \& Rosenbaum}]{gatheral_2018}
+Gatheral, J., Jaisson, T. \& Rosenbaum, M. (2018).
+\newblock Volatility is rough.
+\newblock {\em Quantitative Finance\/}, {\em 18\/}(6), 933--949.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2017.1393551}
+
+\bibitem[{Gatheral et~al.(2020)Gatheral, Jusselin \& Rosenbaum}]{gatheral_2020}
+Gatheral, J., Jusselin, P. \& Rosenbaum, M. (2020).
+\newblock {The quadratic rough Heston model and the joint S\&P 500/VIX smile
+  calibration problem}.
+\newblock {\em Risk\/}.
+
+\bibitem[{Geman et~al.(2001)Geman, Madan \& Yor}]{geman_2001}
+Geman, H., Madan, D.~B. \& Yor, M. (2001).
+\newblock {Time Changes for Lévy Processes}.
+\newblock {\em Mathematical Finance\/}, {\em 11\/}(1), 79--96.
+\newline\urlprefix\url{https://doi.org/10.1111/1467-9965.00108}
+
+\bibitem[{Gerhold et~al.(2016)Gerhold, Gülüm \& Pinter}]{gerhold_2016}
+Gerhold, S., Gülüm, I.~C. \& Pinter, A. (2016).
+\newblock {Small-Maturity Asymptotics for the At-The-Money Implied Volatility
+  Slope in L{\'{e}}vy Models}.
+\newblock {\em Applied Mathematical Finance\/}, {\em 23\/}(2), 135--157.
+\newline\urlprefix\url{https://doi.org/10.1080/1350486x.2016.1197041}
+
+\bibitem[{Glasserman(2003)}]{glasserman_2003}
+Glasserman, P. (2003).
+\newblock {\em Monte Carlo methods in Financial Engineering\/}.
+\newblock Springer-Verlag New York.
+\newline\urlprefix\url{https://doi.org/10.1007/978-0-387-21617-1}
+
+\bibitem[{Griffiths \& Higham(2010)}]{griffiths_2010}
+Griffiths, D.~F. \& Higham, D.~J. (2010).
+\newblock {\em Numerical Methods for Ordinary Differential Equations\/}.
+\newblock Springer-Verlag London.
+\newline\urlprefix\url{https://doi.org/10.1007/978-0-85729-148-6}
+
+\bibitem[{Guyon(2020)}]{guyon_2020}
+Guyon, J. (2020).
+\newblock {The joint S\&P 500/VIX smile calibration puzzle solved}.
+\newblock {\em Risk\/}.
+
+\bibitem[{Guyon \& Henry-Labord\`ere(2013)}]{guyon_2013}
+Guyon, J. \& Henry-Labord\`ere, P. (2013).
+\newblock {\em Nonlinear Option Pricing\/}.
+\newblock Chapman and Hall/CRC.
+\newline\urlprefix\url{https://doi.org/10.1201/b16332}
+
+\bibitem[{Hagan et~al.(2002)Hagan, Kumar, Lesniewski \& Woodward}]{hagan_2002}
+Hagan, P., Kumar, D., Lesniewski, A. \& Woodward, D. (2002).
+\newblock {Managing Smile Risk}.
+\newblock {\em Wilmott Magazine\/}, {\em 1\/}, 84--108.
+\newblock URL: \url{https://www.wilmott.com/managing-smile-risk/}.
+
+\bibitem[{Hamadouche(2000)}]{hamadouche_2000}
+Hamadouche, D. (2000).
+\newblock {Invariance principles in Hölder spaces}.
+\newblock {\em Portugaliae Mathematica\/}, {\em 57\/}(2), 127--151. \\ URL:
+  \texttt{\href{http://eudml.org/doc/48832}{http://eudml.org/doc/48832}}.
+
+\bibitem[{Han \& Kloeden(2017)}]{han_2017}
+Han, X. \& Kloeden, P.~E. (2017).
+\newblock {\em Random Ordinary Differential Equations and Their Numerical
+  Solution\/}.
+\newblock Springer Singapore.
+\newline\urlprefix\url{https://doi.org/10.1007/978-981-10-6265-0}
+
+\bibitem[{Hardy(1916)}]{hardy_1916}
+Hardy, G.~H. (1916).
+\newblock {Weierstrass's Non-Differentiable Function}.
+\newblock {\em Transactions of the American Mathematical Society\/}, {\em
+  17\/}(3), 301--325.
+\newline\urlprefix\url{https://doi.org/10.2307/1989005}
+
+\bibitem[{Hardy \& Littlewood(1928)}]{hardy_1928}
+Hardy, G.~H. \& Littlewood, J.~E. (1928).
+\newblock {Some properties of fractional integrals. I.}
+\newblock {\em Mathematische Zeitschrift\/}, {\em 27\/}, 565--606.
+\newline\urlprefix\url{https://doi.org/10.1007/bf01171116}
+
+\bibitem[{Hartman(2002)}]{hartman_2002}
+Hartman, P. (2002).
+\newblock {\em Ordinary Differential Equations \emph{(2nd ed.)}\/}.
+\newblock Society for Industrial and Applied Mathematics.
+\newline\urlprefix\url{https://doi.org/10.1137/1.9780898719222}
+
+\bibitem[{Heston(1993)}]{heston_1993}
+Heston, S.~L. (1993).
+\newblock {A Closed-Form Solution for Options with Stochastic Volatility with
+  Applications to Bond and Currency Options}.
+\newblock {\em The Review of Financial Studies\/}, {\em 6\/}(2), 327--343.
+\newline\urlprefix\url{https://doi.org/10.1093/rfs/6.2.327}
+
+\bibitem[{Horvath et~al.(2024)Horvath, Jacquier, Muguruza \&
+  S{\o}jmark}]{horvath_2024}
+Horvath, B., Jacquier, A., Muguruza, A. \& S{\o}jmark, A. (2024).
+\newblock {Functional Central Limit Theorems for Rough Volatility}.
+\newblock {\em Finance and Stochastics\/}, {\em 28\/}(3), 615--661.
+\newline\urlprefix\url{https://doi.org/10.1007/s00780-024-00533-5}
+
+\bibitem[{Horvath et~al.(2021)Horvath, Muguruza \& Tomas}]{horvath_2021}
+Horvath, B., Muguruza, A. \& Tomas, M. (2021).
+\newblock Deep learning volatility: a deep neural network perspective on
+  pricing and calibration in (rough) volatility models.
+\newblock {\em Quantitative Finance\/}, {\em 21\/}(1), 11--27.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2020.1817974}
+
+\bibitem[{Ikeda \& Watanabe(1989)}]{ikeda_1989}
+Ikeda, N. \& Watanabe, S. (1989).
+\newblock {\em Stochastic Differential Equations and Diffusion Processes
+  \emph{(2nd ed.)}\/}.
+\newblock North Holland.
+
+\bibitem[{Itô(1944)}]{ito_1944}
+Itô, K. (1944).
+\newblock Stochastic integral.
+\newblock {\em Proceedings of the Imperial Academy\/}, {\em 20\/}(8), 519--524.
+\newline\urlprefix\url{https://doi.org/10.3792/pia/1195572786}
+
+\bibitem[{Itô(1951)}]{ito_1951}
+Itô, K. (1951).
+\newblock On stochastic differential equations.
+\newblock {\em Memoirs of the American Mathematical Society\/}, {\em 4\/},
+  1--51.
+\newline\urlprefix\url{https://doi.org/10.1090/memo/0004}
+
+\bibitem[{Jacod \& Shiryaev(2003)}]{jacod_2003}
+Jacod, J. \& Shiryaev, A.~N. (2003).
+\newblock {\em Limit Theorems for Stochastic Processes \emph{(2nd ed.)}\/}.
+\newblock Springer-Verlag Berlin Heidelberg.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-662-05265-5}
+
+\bibitem[{Jacquier et~al.(2018)Jacquier, Pakkanen \& Stone}]{jacquier_2018}
+Jacquier, A., Pakkanen, M.~S. \& Stone, H. (2018).
+\newblock Pathwise large deviations for the rough {B}ergomi model.
+\newblock {\em Journal of Applied Probability\/}, {\em 55\/}(4), 1078--1092.
+\newline\urlprefix\url{https://doi.org/10.1017/jpr.2018.72}
+
+\bibitem[{Jacquier \& Shi(2019)}]{jacquier_2019}
+Jacquier, A. \& Shi, F. (2019).
+\newblock {The Randomized Heston Model}.
+\newblock {\em SIAM Journal on Financial Mathematics\/}, {\em 10\/}(1),
+  89--129.
+\newline\urlprefix\url{https://doi.org/10.1137/18m1166420}
+
+\bibitem[{Jin et~al.(2019)Jin, Kremer \& Rüdiger}]{jin_2019}
+Jin, P., Kremer, J. \& Rüdiger, B. (2019).
+\newblock {Moments and ergodicity of the jump-diffusion CIR process}.
+\newblock {\em Stochastics\/}, {\em 91\/}(7), 974--997.
+\newline\urlprefix\url{https://doi.org/10.1080/17442508.2019.1576686}
+
+\bibitem[{Jusselin \& Rosenbaum(2020)}]{jusselin_2020}
+Jusselin, P. \& Rosenbaum, M. (2020).
+\newblock No-arbitrage implies power-law market impact and rough volatility.
+\newblock {\em Mathematical Finance\/}, {\em 30\/}(4), 1309--1336.
+\newline\urlprefix\url{https://doi.org/10.1111/mafi.12254}
+
+\bibitem[{Kaper \& Kwong(1988)}]{kaper_1988}
+Kaper, H.~G. \& Kwong, M.~K. (1988).
+\newblock Uniqueness results for some nonlinear initial and boundary value
+  problems.
+\newblock {\em Archive for Rational Mechanics and Analysis\/}, {\em 102\/}(1),
+  45--56.
+\newline\urlprefix\url{https://doi.org/10.1007/bf00250923}
+
+\bibitem[{Karatzas \& Shreve(1998)}]{karatzas_1998}
+Karatzas, I. \& Shreve, S.~E. (1998).
+\newblock {\em Brownian Motion and Stochastic Calculus\/}.
+\newblock Springer-Verlag New York.
+\newline\urlprefix\url{https://doi.org/10.1007/978-1-4612-0949-2}
+
+\bibitem[{Keller-Ressel(2011)}]{keller-ressel_2011}
+Keller-Ressel, M. (2011).
+\newblock Moment explosions and long-term behavior of affine stochastic
+  volatility models.
+\newblock {\em Mathematical Finance\/}, {\em 21\/}(1), 73--98.
+\newline\urlprefix\url{https://doi.org/10.1111/j.1467-9965.2010.00423.x}
+
+\bibitem[{Keller-Ressel et~al.(2018)Keller-Ressel, Larsson \&
+  Pulido}]{keller-ressel_2018}
+Keller-Ressel, M., Larsson, M. \& Pulido, S. (2018).
+\newblock {Affine Rough Models}.
+\newblock {\em arXiv preprint. \\ \emph{URL:
+  \texttt{\href{https://arxiv.org/abs/1812.08486}{https://arxiv.org/abs/1812.08486}}}\/}.
+
+\bibitem[{Kumar \& Vellaisamy(2012)}]{kumar_2012}
+Kumar, A. \& Vellaisamy, P. (2012).
+\newblock {Fractional Normal Inverse Gaussian Process}.
+\newblock {\em Methodology and Computing in Applied Probability\/}, {\em
+  14\/}(2), 263--283.
+\newline\urlprefix\url{https://doi.org/10.1007/s11009-010-9201-z}
+
+\bibitem[{Lakshmikantham \& Leela(1969)}]{lakshmikantham_1969}
+Lakshmikantham, V. \& Leela, S. (1969).
+\newblock {\em Differential and Integral Inequalities: Volume I\/}.
+\newblock Academic Press.
+
+\bibitem[{Lamperti(1962)}]{lamperti_1962}
+Lamperti, J. (1962).
+\newblock On convergence of stochastic processes.
+\newblock {\em Transactions of the American Mathematical Society\/}, {\em
+  104\/}(3), 430--435.
+\newline\urlprefix\url{https://doi.org/10.2307/1993787}
+
+\bibitem[{Lebesgue(1904)}]{lebesgue_1904}
+Lebesgue, H.~L. (1904).
+\newblock {\em {Leçons sur l'intégration et la recherche des fonctions
+  primitives professées au Collège de France}\/}.
+\newblock Cambridge University Press.
+\newline\urlprefix\url{https://doi.org/10.1017/cbo9780511701825}
+
+\bibitem[{L\'evy(1953)}]{levy_1953}
+L\'evy, P. (1953).
+\newblock {\em Random functions: general theory with special reference to
+  Laplacian random functions\/}.
+\newblock University of California Press.
+
+\bibitem[{Lipschitz(1876)}]{lipschitz_1876}
+Lipschitz, R. (1876).
+\newblock Sur la possibilit\'e d'int\'egrer compl\`etement un syst\`eme donn\'e
+  d'\'equations diff\'erentielles.
+\newblock {\em Bulletin des Sciences Math\'ematiques et Astronomiques\/}, {\em
+  10\/}, 149--159.
+
+\bibitem[{Lochowski et~al.(2018)Lochowski, Perkowski \&
+  Prömel}]{lochowski_2018}
+Lochowski, R.~M., Perkowski, N. \& Prömel, D.~J. (2018).
+\newblock A superhedging approach to stochastic integration.
+\newblock {\em Stochastic Processes and their Applications\/}, {\em 128\/}(12),
+  4078--4103.
+\newline\urlprefix\url{https://doi.org/10.1016/j.spa.2018.01.009}
+
+\bibitem[{Lusin(1916)}]{lusin_1916}
+Lusin, N. (1916).
+\newblock {Int\'egral et s\'erie trigonom\'etrique}.
+\newblock {\em Matematicheskii Sbornik\/}, {\em 30\/}(1), 1--242. \\ URL:
+  \texttt{\href{http://mi.mathnet.ru/eng/msb6501}{http://mi.mathnet.ru/eng/msb6501}}.
+
+\bibitem[{Mandelbrot \& Van~Ness(1968)}]{mandelbrot_1968}
+Mandelbrot, B.~B. \& Van~Ness, J.~W. (1968).
+\newblock {Fractional Brownian Motions, Fractional Noises and Applications}.
+\newblock {\em SIAM Review\/}, {\em 10\/}(4), 422--437.
+\newline\urlprefix\url{https://doi.org/10.1137/1010093}
+
+\bibitem[{McCrickerd \& Pakkanen(2018)}]{mccrickerd_2018}
+McCrickerd, R. \& Pakkanen, M.~S. (2018).
+\newblock {Turbocharging Monte Carlo pricing for the rough Bergomi model}.
+\newblock {\em Quantitative Finance\/}, {\em 18\/}(11), 1877--1886.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2018.1459812}
+
+\bibitem[{Mechkov(2015)}]{mechkov_2015}
+Mechkov, S. (2015).
+\newblock {Fast-Reversion Limit of the Heston Model}.
+\newblock {\em SSRN preprint. \\ \emph{URL:
+  \texttt{\href{https://ssrn.com/abstract=2418631}{https://ssrn.com/abstract=2418631}}}\/}.
+
+\bibitem[{Mechkov(2016)}]{mechkov_2016}
+Mechkov, S. (2016).
+\newblock {`Hot-start' initialisation of the Heston model}.
+\newblock {\em Risk\/}.
+
+\bibitem[{Meerschaert \& Scheffler(2004)}]{meerschaert_2004}
+Meerschaert, M.~M. \& Scheffler, H.-P. (2004).
+\newblock Limit theorems for continuous-time random walks with infinite mean
+  waiting times.
+\newblock {\em Journal of Applied Probability\/}, {\em 41\/}(3), 623--638.
+\newline\urlprefix\url{https://doi.org/10.1239/jap/1091543414}
+
+\bibitem[{Muravlev(2011)}]{muravlev_2011}
+Muravlev, A.~A. (2011).
+\newblock {Representation of a fractional Brownian motion in terms of an
+  infinite-dimensional Ornstein-Uhlenbeck process}.
+\newblock {\em Russian Mathematical Surveys\/}, {\em 66\/}(2), 439--441.
+\newline\urlprefix\url{https://doi.org/10.1070/rm2011v066n02abeh004746}
+
+\bibitem[{Novikov(1973)}]{novikov_1973}
+Novikov, A.~A. (1973).
+\newblock {On an Identity for Stochastic Integrals}.
+\newblock {\em Theory of Probability \& Its Applications\/}, {\em 17\/}(4),
+  717--720.
+\newline\urlprefix\url{https://doi.org/10.1137/1117088}
+
+\bibitem[{Papoulis \& Pillai(2002)}]{papoulis_2002}
+Papoulis, A. \& Pillai, S.~U. (2002).
+\newblock {\em Probability, Random Variables, and Stochastic Processes
+  \emph{(4th ed.)}\/}.
+\newblock McGraw Hill.
+
+\bibitem[{Peano(1890)}]{peano_1890}
+Peano, G. (1890).
+\newblock D{\'e}monstration de l'int{\'e}grabilit{\'e} des {\'e}quations
+  diff{\'e}rentielles ordinaires.
+\newblock {\em Mathematische Annalen\/}, {\em 37\/}, 182--228.
+\newline\urlprefix\url{https://doi.org/10.1007/bf01200235}
+
+\bibitem[{Prokhorov(1956)}]{prokhorov_1956}
+Prokhorov, Y.~V. (1956).
+\newblock {Convergence of Random Processes and Limit Theorems in Probability
+  Theory}.
+\newblock {\em Theory of Probability {\&} Its Applications\/}, {\em 1\/}(2),
+  157--214.
+\newline\urlprefix\url{https://doi.org/10.1137/1101016}
+
+\bibitem[{Puhalskii \& Whitt(1997)}]{puhalskii_1997}
+Puhalskii, A.~A. \& Whitt, W. (1997).
+\newblock {Functional large deviation principles for first-passage-time
+  processes}.
+\newblock {\em The Annals of Applied Probability\/}, {\em 7\/}(2), 362--381.
+\newline\urlprefix\url{https://doi.org/10.1214/aoap/1034625336}
+
+\bibitem[{Račkauskas \& Suquet(2004)}]{rackauskas_2004}
+Račkauskas, A. \& Suquet, C. (2004).
+\newblock {Necessary and sufficient condition for the Lamperti invariance
+  principle}.
+\newblock {\em Theory of Probability and Mathematical Statistics\/}, {\em
+  68\/}, 127--137.
+\newline\urlprefix\url{https://doi.org/10.1090/S0094-9000-04-00601-5}
+
+\bibitem[{Revuz \& Yor(1999)}]{revuz_1999}
+Revuz, D. \& Yor, M. (1999).
+\newblock {\em Continuous Martingales and Brownian Motion\/}.
+\newblock Springer-Verlag Berlin Heidelberg.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-662-06400-9}
+
+\bibitem[{Rogers \& Williams(2000)}]{rogers_2000}
+Rogers, L. C.~G. \& Williams, D. (2000).
+\newblock {\em {Diffusions, Markov Processes, and Martingales \emph{(2nd
+  ed.)}}\/}.
+\newblock Cambridge University Press. \\ Vol.1 DOI:
+  \texttt{\href{https://doi.org/10.1017/cbo9781107590120}{https://doi.org/10.1017/cbo9781107590120}}
+  \\ Vol.2 DOI:
+  \texttt{\href{https://doi.org/10.1017/cbo9780511805141}{https://doi.org/10.1017/cbo9780511805141}}.
+
+\bibitem[{Royden \& Fitzpatrick(2010)}]{royden_2010}
+Royden, H.~L. \& Fitzpatrick, P.~M. (2010).
+\newblock {\em Real Analysis \emph{(4th ed.)}\/}.
+\newblock Prentice Hall.
+
+\bibitem[{Rudin(1976)}]{rudin_1976}
+Rudin, W. (1976).
+\newblock {\em Principles of Mathematical Analysis \emph{(3rd ed.)}\/}.
+\newblock McGraw-Hill.
+
+\bibitem[{Saks(1937)}]{saks_1937}
+Saks, S. (1937).
+\newblock {\em {Theory of the Integral \emph{(2nd ed.)}}\/}.
+\newblock Hafner Publishing Company New York.
+
+\bibitem[{Samko et~al.(1993)Samko, Kilbas \& Marichev}]{samko_1993}
+Samko, S.~G., Kilbas, A.~A. \& Marichev, O.~I. (1993).
+\newblock {\em Fractional Integrals and Derivatives\/}.
+\newblock CRC Press.
+
+\bibitem[{Sato(1999)}]{sato_1999}
+Sato, K. (1999).
+\newblock {\em {L\'{e}vy Processes and Infinitely Divisible Distributions}\/}.
+\newblock Cambridge University Press.
+
+\bibitem[{Skorokhod(1956)}]{skorokhod_1956}
+Skorokhod, A.~V. (1956).
+\newblock {Limit Theorems for Stochastic Processes}.
+\newblock {\em Theory of Probability {\&} Its Applications\/}, {\em 1\/}(3),
+  261--290.
+\newline\urlprefix\url{https://doi.org/10.1137/1101022}
+
+\bibitem[{Skorokhod(1965)}]{skorokhod_1965}
+Skorokhod, A.~V. (1965).
+\newblock {\em {Studies in the Theory of Random Processes}\/}.
+\newblock Addison-Wesley.
+
+\bibitem[{Soong(1973)}]{soong_1973}
+Soong, T.~T. (1973).
+\newblock {\em Random Differential Equations in Science and Engineering\/}.
+\newblock Academic Press.
+
+\bibitem[{Srinivasan \& Vasudevan(1971)}]{srinivasan_1971}
+Srinivasan, S.~K. \& Vasudevan, R. (1971).
+\newblock {\em Introduction to Random Differential Equations and Their
+  Applications\/}.
+\newblock Elsevier Publishing Company.
+
+\bibitem[{Strand(1968)}]{strand_1968}
+Strand, J.~L. (1968).
+\newblock {\em Stochastic Ordinary Differential Equations\/}.
+\newblock PhD Thesis, University of California (Berkeley).
+
+\bibitem[{Strand(1970)}]{strand_1970}
+Strand, J.~L. (1970).
+\newblock Random ordinary differential equations.
+\newblock {\em Journal of Differential Equations\/}, {\em 7\/}(3), 538--553.
+\newline\urlprefix\url{https://doi.org/10.1016/0022-0396(70)90100-2}
+
+\bibitem[{Sussmann(1978)}]{sussmann_1978}
+Sussmann, H.~J. (1978).
+\newblock {On the Gap Between Deterministic and Stochastic Ordinary
+  Differential Equations}.
+\newblock {\em The Annals of Probability\/}, {\em 6\/}(1), 19--41.
+\newline\urlprefix\url{https://doi.org/10.1214/aop/1176995608}
+
+\bibitem[{Swishchuk(2016)}]{swishchuk_2016}
+Swishchuk, A. (2016).
+\newblock {\em Change of Time Methods in Quantitative Finance\/}.
+\newblock Springer International Publishing.
+\newline\urlprefix\url{https://doi.org/10.1007/978-3-319-32408-1}
+
+\bibitem[{Tse \& Wan(2013)}]{tse_2013}
+Tse, S.~T. \& Wan, J. W.~L. (2013).
+\newblock {Low-bias simulation scheme for the Heston model by Inverse Gaussian
+  approximation}.
+\newblock {\em Quantitative Finance\/}, {\em 13\/}(6), 919--937.
+\newline\urlprefix\url{https://doi.org/10.1080/14697688.2012.696678}
+
+\bibitem[{Vellaisamy \& Kumar(2018)}]{vellaisamy_2018}
+Vellaisamy, P. \& Kumar, A. (2018).
+\newblock {First-exit times of an inverse Gaussian process}.
+\newblock {\em Stochastics\/}, {\em 90\/}(1), 29--48.
+\newline\urlprefix\url{https://doi.org/10.1080/17442508.2017.1311897}
+
+\bibitem[{Vovk(2016)}]{vovk_2016}
+Vovk, V. (2016).
+\newblock Purely pathwise probability-free {It\^o} integral.
+\newblock {\em Matematychni Studii\/}, {\em 46\/}(1), 96--110.
+\newline\urlprefix\url{https://doi.org/10.15330/ms.46.1.96-110}
+
+\bibitem[{Watanabe(2010)}]{watanabe_2010}
+Watanabe, S. (2010).
+\newblock {Itô’s theory of excursion point processes and its developments}.
+\newblock {\em Stochastic Processes and their Applications\/}, {\em 120\/}(5),
+  653--677.
+\newline\urlprefix\url{https://doi.org/10.1016/j.spa.2010.01.012}
+
+\bibitem[{Wend(1969)}]{wend_1969}
+Wend, D. V.~V. (1969).
+\newblock Existence and uniqueness of solutions of ordinary differential
+  equations.
+\newblock {\em Proceedings of the American Mathematical Society\/}, {\em
+  23\/}(1), 27--33.
+\newline\urlprefix\url{https://doi.org/10.2307/2037480}
+
+\bibitem[{Whitt(1971)}]{whitt_1971}
+Whitt, W. (1971).
+\newblock Weak convergence of first passage time processes.
+\newblock {\em Journal of Applied Probability\/}, {\em 8\/}(2), 417--422.
+\newline\urlprefix\url{https://doi.org/10.2307/3211913}
+
+\bibitem[{Whitt(1980)}]{whitt_1980}
+Whitt, W. (1980).
+\newblock {Some Useful Functions for Functional Limit Theorems}.
+\newblock {\em Mathematics of Operations Research\/}, {\em 5\/}(1), 67--85.
+\newline\urlprefix\url{https://doi.org/10.1287/moor.5.1.67}
+
+\bibitem[{Whitt(2002)}]{whitt_2002}
+Whitt, W. (2002).
+\newblock {\em Stochastic-Process Limits\/}.
+\newblock Springer-Verlag New York.
+\newline\urlprefix\url{https://doi.org/10.1007/b97479}
+
+\bibitem[{Wintner(1945)}]{wintner_1945}
+Wintner, A. (1945).
+\newblock {The Non-Local Existence Problem of Ordinary Differential Equations}.
+\newblock {\em American Journal of Mathematics\/}, {\em 67\/}(2), 277--284.
+\newline\urlprefix\url{https://doi.org/10.2307/2371729}
+
+\bibitem[{Wyłomańska et~al.(2016)Wyłomańska, Kumar, Połoczański \&
+  Vellaisamy}]{wylomanska_2016}
+Wyłomańska, A., Kumar, A., Połoczański, R. \& Vellaisamy, P. (2016).
+\newblock {Inverse Gaussian and its inverse process as the subordinators of
+  fractional Brownian motion}.
+\newblock {\em Physical Review E\/}, {\em 94\/}(4), 042128.
+\newline\urlprefix\url{https://doi.org/10.1103/PhysRevE.94.042128}
+
+\bibitem[{Yamada \& Watanabe(1971)}]{yamada_1971}
+Yamada, T. \& Watanabe, S. (1971).
+\newblock On the uniqueness of solutions of stochastic differential equations.
+\newblock {\em Journal of Mathematics of Kyoto University\/}, {\em 11\/}(1),
+  155--167.
+\newline\urlprefix\url{https://doi.org/10.1215/kjm/1250523691}
+
+\bibitem[{Yosie(1925)}]{yosie_1925}
+Yosie, T. (1925).
+\newblock {Über die Unität der Lösung der gewöhnlichen
+  Differentialgleichungen erster Ordnung}.
+\newblock {\em Japanese journal of mathematics\/}, {\em 2\/}, 161--173.
+\newline\urlprefix\url{https://doi.org/10.4099/jjm1924.2.0_161}
+
+\bibitem[{Zumbach(2009)}]{zumbach_2009}
+Zumbach, G. (2009).
+\newblock Time reversal invariance in finance.
+\newblock {\em Quantitative Finance\/}, {\em 9\/}(5), 505--515.
+\newline\urlprefix\url{https://doi.org/10.1080/14697680802616712}
+
+\bibitem[{Zygmund(2003)}]{zygmund_2003}
+Zygmund, A. (2003).
+\newblock {\em Trigonometric Series \emph{(3rd ed.)}\/}.
+\newblock Cambridge University Press.
+\newline\urlprefix\url{https://doi.org/10.1017/cbo9781316036587}
+
+\end{thebibliography}
