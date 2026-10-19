@@ -1,6 +1,6 @@
 # On spatially irregular ordinary differential equations and a pathwise volatility modelling framework
 
-LaTeX source of Ryan McCrickerd's PhD thesis (Department of Mathematics, Imperial College London, 2021).
+LaTeX source of Ryan McCrickerd's PhD thesis (Department of Mathematics, Imperial College London, 2021), and a Lean 4 formalisation of its main results.
 
 - arXiv: [1902.01673](https://arxiv.org/abs/1902.01673) ([PDF](https://arxiv.org/pdf/1902.01673))
 - Imperial College London thesis repository: [doi:10.25560/92202](https://doi.org/10.25560/92202)
@@ -37,7 +37,11 @@ Requires a recent TeX Live with `latexmk`; the source was last built with TeX Li
     latexmk        # writes main.pdf
     latexmk -c     # remove intermediate files
 
-BibTeX regenerates `main.bbl` from `bib/thesis.bib` on each build. `main.bbl` is tracked because arXiv compiles from it.
+latexmk reruns BibTeX, regenerating `main.bbl` from `bib/thesis.bib`, whenever the bibliography changes. `main.bbl` is tracked because arXiv compiles from it.
+
+## Lean formalisation
+
+`lean/` formalises the thesis's main results in Lean 4 with Mathlib, with the results they rest on. [lean/README.md](lean/README.md) lists them, and [lean/NOTES.md](lean/NOTES.md) records where the Lean proofs differ from the thesis's.
 
 ## Layout
 
@@ -59,9 +63,9 @@ BibTeX regenerates `main.bbl` from `bib/thesis.bib` on each build. `main.bbl` is
       thesis.bib        bibliography database
       thesis.bst        bibliography style, a modified copy of apa-good.bst
     figures/            figures, as PDF
-    lean/               planned Lean formalisation
+    lean/               Lean formalisation
     CITATION.cff        citation metadata
 
 ## Licence
 
-The thesis is licensed under CC BY-NC 4.0, as stated in its copyright declaration. See [LICENSE](LICENSE).
+The thesis is licensed under CC BY-NC 4.0, as stated in its copyright declaration. See [LICENSE](LICENSE). The Lean formalisation in `lean/` is licensed under the Apache License 2.0; see [lean/LICENSE](lean/LICENSE).

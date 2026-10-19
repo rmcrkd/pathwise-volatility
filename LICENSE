@@ -11,8 +11,10 @@ and distribute modified versions of it, provided that you credit the author
 and do not use it, or any derivative work, for a commercial purpose. When
 sharing it, name the licence, link to it, and say whether you made changes.
 
-The exception is bib/thesis.bst, a modified copy of apa-good.bst, which is
-distributed under the LaTeX Project Public License, as its header states.
+There are two exceptions. bib/thesis.bst, a modified copy of apa-good.bst, is
+distributed under the LaTeX Project Public License, as its header states. The
+Lean formalisation in lean/ is licensed under the Apache License 2.0, as
+lean/LICENSE states.
 
 The full licence text is at
 https://creativecommons.org/licenses/by-nc/4.0/legalcode

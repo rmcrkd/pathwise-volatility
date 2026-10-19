@@ -1,0 +1,36 @@
+# number	kind	title	status	lean	files	uses	role
+1.1	Definition	Set F of functions	Formalised	InF	Basic		supporting
+1.2	Problem	IVPs of Chapter 2	Formalised	IsSolution IsMaximalSolution IsSolution.continuousOn_deriv	Basic SolutionFacts		supporting
+1.3	Definition	Set G of functions	Formalised	InG	Global		supporting
+1.4	Problem	IVPs of Chapter 3	Formalised	IsGlobalSolution	Global		supporting
+1.5	Definition	Set Φ of paths	Formalised	InΦ	Global		supporting
+1.6	Definition	Set Φ̄ of paths	Formalised	InΦbar	Global		supporting
+2.1	Corollary	Maximal uniqueness	Proved	maximal_existence_uniqueness	Maximal	1.2	supporting
+2.3	Lemma	Path of zeros	Proved	continuous_zeroPath f_zeroPath_eq_zero	Zeros		supporting
+2.4	Lemma	Càdlàg zeros	Proved	upperBound_eq_exitTime le_upperBound upperBound_mono upperBound_continuousWithinAt upperBound_tendsto_left f_upperBound_eq_zero upperBound_lt	Zeros	2.3	supporting
+2.6	Lemma	Spatial solution bounds	Proved	spatial_bounds	Bounds	2.4 2.3	supporting
+2.8	Theorem	Maximal existence and bijectivity	Proved	exists_maximal strictMonoOn_solution maximal_unbounded image_dom	Maximal Bounds SolutionFacts	2.6 2.4	main
+2.9	Lemma	Temporal existence	Proved	lt_of_upperBound_lt_top eq_top_of_upperBound_lt_top	Bounds	2.8 2.6	main
+2.10	Lemma	Spatial existence	Proved	exceeds_iff unbounded_iff	Existence	2.8 2.3	supporting
+2.11	Corollary	Spatio-temporal existence	Proved	spatio_temporal	Existence		main
+2.16	Lemma	Solutions' inverse properties	Proved	strictMonoOn_solInv continuousOn_solInv hasDerivAt_solInv pos_of_hasDerivAt_solInv solInv_lebesgue solInv_absolutelyContinuous hasDerivWithinAt_solInv_init mul_eq_one_of_hasDerivWithinAt_solInv_init	InverseSolution SolutionFacts	2.8	supporting
+2.17	Theorem	Maximal uniqueness	Proved	maximal_existence_uniqueness maximal_uniqueness	Maximal Uniqueness	2.8 2.16 2.15	main
+2.18	Theorem	Solution map continuity	Proved	solution_map_continuous	Dependence	2.8 2.17	main
+3.3	Theorem	Well-posedness for Problem 1.4	Proved	InG.exists_unique_global InG.upper_bound InG.solution_continuous InG.clipped_euler_converges InG.isGlobalSolution_iff exists_clippedEulerPolygon	Global EulerClipped	1.3 1.1 3.1 2.8 2.17 2.11 2.6 2.18 2.20	main
+3.4	Theorem	The solution set	Proved	solution_set InG.mem_Φ solves_gOfPath gOfPath_mem_G	SolutionSet	1.4 3.3 1.3	main
+3.5	Corollary	Solution map surjectivity	Proved	solution_map_surjective	SolutionSet	1.4	supporting
+3.6	Theorem	Solution map bijectivity	Proved	InW.inG InW.solution_mem InW.injective InΦϑ.exists_w	SolutionSet	1.3 3.3	main
+3.7	Corollary		Proved	InW.solution_mem InW.injective InΦϑ.exists_w	SolutionSet	3.6	supporting
+3.9	Definition	The exit-time functional	Formalised	exitT exitT_eq_invPath	ExitTime		supporting
+3.10	Definition	Set N of paths	Formalised	InN	ExitTime		supporting
+3.11	Lemma	Exit-time bijectivity	Proved	InΦbar.inN_exitT InN.inΦbar_exitT InΦbar.exitT_exitT InN.exitT_exitT InΦbar.exitT_eq_iff	ExitBijection ExitConstruct		supporting
+3.12	Definition	Exit-time metric	Formalised	exitMetric uniNorm_le tendsto_exitMetric	ExitTime		supporting
+3.15	Corollary	Exit-time lower bound	Proved	InG.exitT_zeroG InG.exitT_barG InG.exitT_barG_le	ExitLimits	2.3 2.4 3.3	supporting
+3.16	Lemma	Convergence of bounds	Proved	bounds_converge	ExitLimits	3.15	supporting
+3.17	Theorem	Uniform exit-time limits	Proved	exit_limit	ExitLimits	3.15 3.16 3.11	main
+3.18	Theorem	Construction of exit-time limits	Proved	construct_limit barG_construct InΦbar.construct_example	ExitConstruct ExitBijection	3.17	main
+3.19	Example	Pathwise integrated CIR to IG	Proved	cir_to_ig inG_cirG cirG_conv inG_cirG_iff unbounded_iff_bound_finite	ExitExamples	1.3 3.17	main
+3.21	Definition	Set E of paths	Formalised	InE	Excursion		supporting
+3.22	Definition	Excursionary metric	Formalised	excT excMetric excGraphStar	Excursion		supporting
+3.26	Theorem	Excursionary composite limits	Proved	graph_hausdorff fillComp	Excursion	3.25	main
+3.27	Example	Pathwise Heston to NIG	Proved	heston_to_nig	ExitExamples	3.19 3.17 3.26	main
